@@ -23,10 +23,8 @@ public class TestBase {
 					System.getProperty("user.dir")+"./src/main/java/Ecom/config/config.properties");
 			pop.load(conf);
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
